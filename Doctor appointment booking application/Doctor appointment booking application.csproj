@@ -16,4 +16,8 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DoctorAppointmentManagement.Shell\DoctorAppointmentManagement.Shell.csproj" />
+  </ItemGroup>
+
 </Project>
