@@ -7,9 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\App.Shared\App.Shared.csproj" />
     <ProjectReference Include="..\DoctorAvailability.Domain\DoctorAvailability.Domain.csproj" />
     <ProjectReference Include="..\DoctorAvailability.Shared\DoctorAvailability.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Slots\Commands\" />
+    <Folder Include="Slots\Queries\" />
   </ItemGroup>
 
 </Project>
