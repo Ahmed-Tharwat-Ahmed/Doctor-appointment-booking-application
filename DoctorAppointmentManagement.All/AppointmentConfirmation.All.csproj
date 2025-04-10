@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\App.Shared\App.Shared.csproj" />
-    <ProjectReference Include="..\AppointmentConrmation.Shared\AppointmentConrmation.Shared.csproj" />
+    <ProjectReference Include="..\AppointmentConrmation.Shared\AppointmentConfirmation.Shared.csproj" />
   </ItemGroup>
 
 </Project>

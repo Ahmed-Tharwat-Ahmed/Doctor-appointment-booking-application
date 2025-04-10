@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doctor Availability", "Doct
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Appointment Booking", "Appointment Booking", "{7C7DB289-8BC6-423C-841A-3A95195A28BE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Appointment Conrmation", "Appointment Conrmation", "{18711395-AA6B-4856-BCB2-03B177032BBF}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Appointment Confirmation", "Appointment Confirmation", "{18711395-AA6B-4856-BCB2-03B177032BBF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doctor Appointment Management", "Doctor Appointment Management", "{7585F038-77C2-4A39-AFB2-F79B49D0FDC6}"
 EndProject
@@ -33,31 +33,31 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoctorAvailability.Domain",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoctorAvailability.Application", "DoctorAvailability.Application\DoctorAvailability.Application.csproj", "{EC4BFF5F-2AB7-4912-AD96-6609A17369D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorAvailability.infrastructure", "DoctorAvailability.infrastructure\DoctorAvailability.infrastructure.csproj", "{1D8890F9-8FEE-4D2D-8A7E-2A3ACEC82666}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoctorAvailability.infrastructure", "DoctorAvailability.infrastructure\DoctorAvailability.infrastructure.csproj", "{1D8890F9-8FEE-4D2D-8A7E-2A3ACEC82666}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentBooking.Domain", "AppointmentBooking.Domain\AppointmentBooking.Domain.csproj", "{B9D2E113-BD38-419B-B17C-B192D8938158}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppointmentBooking.Domain", "AppointmentBooking.Domain\AppointmentBooking.Domain.csproj", "{B9D2E113-BD38-419B-B17C-B192D8938158}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentBooking.Application", "AppointmentBooking.Application\AppointmentBooking.Application.csproj", "{7A383228-689C-4D2B-AEF1-D6A7C24DBCF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppointmentBooking.Application", "AppointmentBooking.Application\AppointmentBooking.Application.csproj", "{7A383228-689C-4D2B-AEF1-D6A7C24DBCF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentBooking.Infrastructure", "AppointmentBooking.Infrastructure\AppointmentBooking.Infrastructure.csproj", "{17FDF27E-3A4F-4B2A-8DAC-1B1DA4166D7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppointmentBooking.Infrastructure", "AppointmentBooking.Infrastructure\AppointmentBooking.Infrastructure.csproj", "{17FDF27E-3A4F-4B2A-8DAC-1B1DA4166D7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorAppointmentManagement.Core", "DoctorAppointmentManagement.Core\DoctorAppointmentManagement.Core.csproj", "{38DA0E81-FF6E-4A72-AB37-C5A496559829}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoctorAppointmentManagement.Core", "DoctorAppointmentManagement.Core\DoctorAppointmentManagement.Core.csproj", "{38DA0E81-FF6E-4A72-AB37-C5A496559829}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorAppointmentManagement.Shell", "DoctorAppointmentManagement.Shell\DoctorAppointmentManagement.Shell.csproj", "{2B660A27-AAB6-4FA7-8EF7-9459AFF73D05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoctorAppointmentManagement.Shell", "DoctorAppointmentManagement.Shell\DoctorAppointmentManagement.Shell.csproj", "{2B660A27-AAB6-4FA7-8EF7-9459AFF73D05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentConrmation.All", "DoctorAppointmentManagement.All\AppointmentConrmation.All.csproj", "{C286013A-0851-400A-B638-9BCBA07C6201}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppointmentConfirmation.All", "DoctorAppointmentManagement.All\AppointmentConfirmation.All.csproj", "{C286013A-0851-400A-B638-9BCBA07C6201}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentBooking.Shared", "AppointmentBooking.Shared\AppointmentBooking.Shared.csproj", "{678B287B-DABD-421A-9766-F683D9D9C982}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppointmentBooking.Shared", "AppointmentBooking.Shared\AppointmentBooking.Shared.csproj", "{678B287B-DABD-421A-9766-F683D9D9C982}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentConrmation.Shared", "AppointmentConrmation.Shared\AppointmentConrmation.Shared.csproj", "{91A0BA82-F715-4B1A-9459-2F17A4FC795D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppointmentConfirmation.Shared", "AppointmentConrmation.Shared\AppointmentConfirmation.Shared.csproj", "{91A0BA82-F715-4B1A-9459-2F17A4FC795D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorAppointmentManagement.Shared", "DoctorAppointmentManagement.Shared\DoctorAppointmentManagement.Shared.csproj", "{8BAA363D-33DE-4BA6-BC32-456D3544ED77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoctorAppointmentManagement.Shared", "DoctorAppointmentManagement.Shared\DoctorAppointmentManagement.Shared.csproj", "{8BAA363D-33DE-4BA6-BC32-456D3544ED77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorAvailability.Shared", "DoctorAvailability.Shared\DoctorAvailability.Shared.csproj", "{213968EF-F0AA-4724-9BDC-137776BF74AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoctorAvailability.Shared", "DoctorAvailability.Shared\DoctorAvailability.Shared.csproj", "{213968EF-F0AA-4724-9BDC-137776BF74AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Shared", "App.Shared\App.Shared.csproj", "{97C4CC39-38A1-427E-9A91-C1DC17AAC7A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.Shared", "App.Shared\App.Shared.csproj", "{97C4CC39-38A1-427E-9A91-C1DC17AAC7A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{3AAE87F9-C671-4908-AD0D-EE4F98D2DAAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "Api\Api.csproj", "{3AAE87F9-C671-4908-AD0D-EE4F98D2DAAA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

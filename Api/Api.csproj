@@ -13,7 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AppointmentBooking.Infrastructure\AppointmentBooking.Infrastructure.csproj" />
-    <ProjectReference Include="..\DoctorAppointmentManagement.All\AppointmentConrmation.All.csproj" />
+    <ProjectReference Include="..\DoctorAppointmentManagement.All\AppointmentConfirmation.All.csproj" />
     <ProjectReference Include="..\DoctorAppointmentManagement.Shell\DoctorAppointmentManagement.Shell.csproj" />
     <ProjectReference Include="..\DoctorAvailability.infrastructure\DoctorAvailability.infrastructure.csproj" />
   </ItemGroup>
