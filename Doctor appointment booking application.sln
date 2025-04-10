@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Doctor appointment booking application", "Doctor appointment booking application\Doctor appointment booking application.csproj", "{8A942F45-8057-4AFE-9B1F-D8154CF90CBA}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doctor Availability", "Doctor Availability", "{4DE4EAE1-B992-4F14-9906-EE5C19F5E48E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Appointment Booking", "Appointment Booking", "{7C7DB289-8BC6-423C-841A-3A95195A28BE}"
@@ -47,7 +45,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorAppointmentManagement
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorAppointmentManagement.Shell", "DoctorAppointmentManagement.Shell\DoctorAppointmentManagement.Shell.csproj", "{2B660A27-AAB6-4FA7-8EF7-9459AFF73D05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorAppointmentManagement.All", "DoctorAppointmentManagement.All\DoctorAppointmentManagement.All.csproj", "{C286013A-0851-400A-B638-9BCBA07C6201}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentConrmation.All", "DoctorAppointmentManagement.All\AppointmentConrmation.All.csproj", "{C286013A-0851-400A-B638-9BCBA07C6201}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentBooking.Shared", "AppointmentBooking.Shared\AppointmentBooking.Shared.csproj", "{678B287B-DABD-421A-9766-F683D9D9C982}"
 EndProject
@@ -59,16 +57,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorAvailability.Shared",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Shared", "App.Shared\App.Shared.csproj", "{97C4CC39-38A1-427E-9A91-C1DC17AAC7A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{3AAE87F9-C671-4908-AD0D-EE4F98D2DAAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8A942F45-8057-4AFE-9B1F-D8154CF90CBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8A942F45-8057-4AFE-9B1F-D8154CF90CBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8A942F45-8057-4AFE-9B1F-D8154CF90CBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8A942F45-8057-4AFE-9B1F-D8154CF90CBA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8D53272C-EDB8-4617-B310-854D9254FAD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8D53272C-EDB8-4617-B310-854D9254FAD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D53272C-EDB8-4617-B310-854D9254FAD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -125,6 +121,10 @@ Global
 		{97C4CC39-38A1-427E-9A91-C1DC17AAC7A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97C4CC39-38A1-427E-9A91-C1DC17AAC7A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97C4CC39-38A1-427E-9A91-C1DC17AAC7A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AAE87F9-C671-4908-AD0D-EE4F98D2DAAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AAE87F9-C671-4908-AD0D-EE4F98D2DAAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AAE87F9-C671-4908-AD0D-EE4F98D2DAAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AAE87F9-C671-4908-AD0D-EE4F98D2DAAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

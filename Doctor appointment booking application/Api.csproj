@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <RootNamespace>Doctor_appointment_booking_application</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AppointmentBooking.Infrastructure\AppointmentBooking.Infrastructure.csproj" />
+    <ProjectReference Include="..\DoctorAppointmentManagement.All\AppointmentConrmation.All.csproj" />
+    <ProjectReference Include="..\DoctorAppointmentManagement.Shell\DoctorAppointmentManagement.Shell.csproj" />
+    <ProjectReference Include="..\DoctorAvailability.infrastructure\DoctorAvailability.infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

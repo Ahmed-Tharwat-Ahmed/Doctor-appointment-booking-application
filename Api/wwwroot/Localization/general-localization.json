@@ -1,0 +1,12 @@
+[
+    {
+        "key": "Success",
+        "valueAr": "تمت العمليه بنجاح",
+        "valueEn": "Successfully Operation"
+    },
+    {
+        "key": "Fail",
+        "valueAr": "حدث خطا ما",
+        "valueEn": "An Error Occurred"
+    }
+]

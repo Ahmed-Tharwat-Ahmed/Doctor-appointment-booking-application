@@ -4,28 +4,29 @@
     {
         public string Id { get; set; } = Guid.NewGuid().ToString();
         public DateTime Time { get; set; }
-        public bool IsReserved { get; set; }
         public double Coast { get; set; }
+        public bool IsReserved { get; set; }
 
         public string DoctorId { get; set; }
-        public Doctor Doctor { get; set; }
+        public string DoctorName { get; set; }
 
-        private Slot(Doctor doctor, DateTime time, double coast, bool isReserved)
+        private Slot(DateTime time, double coast, string doctorId, string doctorName, bool isReserved)
         {
-            Doctor = doctor;
             Time = time;
             Coast = coast;
+            DoctorId = doctorId;
+            DoctorName = doctorName;
             IsReserved = isReserved;
         }
+
         public Slot()
         {
 
         }
 
-
-        public static Slot CreateNewSlot(Doctor doctor, DateTime time, double coast)
+        public static Slot CreateNewSlot(DateTime time, double coast, string doctorId, string doctorName)
         {
-            return new Slot(doctor, SlotTime.Of(time), SlotCoast.Of(coast), false);
+            return new Slot(SlotTime.Of(time), SlotCoast.Of(coast), doctorId, doctorName, false);
         }
     }
 }
