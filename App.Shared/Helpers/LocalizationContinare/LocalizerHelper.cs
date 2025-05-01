@@ -1,7 +1,7 @@
-﻿using App.Shared.Other.Constants;
+﻿using App.Shared.Constants;
 using Newtonsoft.Json;
 
-namespace App.Shared.Other.Helpers.LocalizationContinare
+namespace App.Shared.Helpers.LocalizationContinare
 {
     public static class LocalizerHelper
     {

@@ -1,4 +1,4 @@
-﻿namespace App.Shared.Other.Helpers
+﻿namespace App.Shared.Helpers.StringContinare
 {
     public static class StringHelper
     {

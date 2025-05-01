@@ -1,6 +1,6 @@
-﻿using App.Shared.Other.Helpers;
+﻿using App.Shared.Helpers.StringContinare;
 
-namespace App.Shared.Other.Constants
+namespace App.Shared.Constants
 {
     internal class DefaultPaths
     {

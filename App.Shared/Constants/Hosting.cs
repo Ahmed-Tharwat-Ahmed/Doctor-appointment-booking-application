@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Hosting;
 
-namespace App.Shared.Other.Constants
+namespace App.Shared.Constants
 {
     internal static class Hosting
     {

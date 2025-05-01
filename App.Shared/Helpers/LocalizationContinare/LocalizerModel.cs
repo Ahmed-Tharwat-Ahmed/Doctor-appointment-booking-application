@@ -1,4 +1,4 @@
-﻿namespace App.Shared.Other.Helpers.LocalizationContinare
+﻿namespace App.Shared.Helpers.LocalizationContinare
 {
     public class LocalizerModel
     {

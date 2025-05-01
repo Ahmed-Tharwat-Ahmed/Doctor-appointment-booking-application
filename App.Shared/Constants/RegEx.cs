@@ -1,4 +1,4 @@
-﻿namespace App.Shared.Other.Constants
+﻿namespace App.Shared.Constants
 {
 
     public static class RegEx
